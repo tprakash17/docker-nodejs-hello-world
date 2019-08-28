@@ -50,4 +50,8 @@ replicaset.apps/nodejs-7f4774b764   2         2         2       10m
 
 ```
 
-## Access APP kubernetes cluster any <NODEIP>:31780
+## Access APP using NodePort
+
+```
+curl <ANY_CLUSTER_NODE_IP>:31780
+```
